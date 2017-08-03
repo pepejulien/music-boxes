@@ -1,0 +1,54 @@
+html,
+body {
+    width:100%;
+    height: 100%;
+}
+
+.piano {
+    width: 100%;
+    height: 50%;
+    max-height: 400px;
+    text-align: center;
+}
+
+
+.piano-key {
+    border: 1px solid #bbb;
+    display: inline-block;
+    width: 10%;
+    max-width: 100px;
+    height: 100%;
+}
+
+.c-key.active,
+.c-key:hover {
+    background-color: red;
+}
+.d-key.active,
+.d-key:hover {
+    background-color: yellow;
+}
+.e-key.active,
+.e-key:hover {
+    background-color: black;
+}
+.f-key.active,
+.f-key:hover {
+    background-color: brown;
+}
+.g-key.active,
+.g-key:hover {
+    background-color: red;
+}
+.a-key.active,
+.a-key:hover {
+    background-color: cyan;
+}
+.b-key.active,
+.b-key:hover {
+    background-color: orange;
+}
+.high-c-key.active,
+.high-c-key:hover {
+    background-color: purple;
+}
